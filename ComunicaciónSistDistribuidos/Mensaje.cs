@@ -13,6 +13,8 @@ namespace Project
         private string datos;
         private string flags; // "ACK", "OK"
 
+        public string Datos { get => datos; set => datos = value; }
+
         public Message() { }
         public Message(byte[] datos) { }
 
